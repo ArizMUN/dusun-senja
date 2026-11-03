@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Dusun Senja</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#5da64a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud"><span id="clock"></span><span id="gold"></span></div><div id="menuc" class="mv"><button id="menub" title="Menu">⚙️</button><button id="mapb" title="Peta (M)">🗺️</button><button id="qb" title="Misi (Q)">📜</button><button id="tr" title="Skill (K)">🌳</button><button id="bm" title="Bangun (B)">🔨</button><button id="bag" title="Tas (I)">🎒</button><button id="reset" title="Mulai baru">⟲</button></div>
+<div id="hpb"><i id="hpf"></i><span id="hpt"></span></div><div id="mpb"><i id="mpf"></i><span id="mpt"></span></div><button id="qt" class="mv"></button><div id="skbar" class="mv"></div><div id="hbw" class="mv"><div id="binfo"></div><div id="hotbar"></div></div>
+<div id="toast"></div>
+<div id="layb" hidden><span>Seret tombol ke posisi yang kamu mau</span><button id="layr">Reset</button><button id="layd">Selesai</button></div>
+<div id="panel" hidden></div>
+<button id="atk" class="mv" title="Serang (J / F)">⚔️</button><button id="act" class="mv" title="Aksi (Spasi / E)">✋</button>
+<div id="joy" class="mv"><div id="stick"></div></div>
+<div id="dead" hidden><div><h2>Kamu pingsan… 💤</h2><p>Warga dusun membawamu pulang. Istirahat dulu ya, besok pagi kita coba lagi.</p><button id="wake">Bangun di rumah</button></div></div>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/sfx.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/world.js"></script>
+<script src="js/farm.js"></script>
+<script src="js/build.js"></script>
+<script src="js/skills.js"></script>
+<script src="js/gear.js"></script>
+<script src="js/battle.js"></script>
+<script src="js/dungeon.js"></script>
+<script src="js/village.js"></script>
+<script src="js/quest.js"></script>
+<script src="js/fish.js"></script>
+<script src="js/cook.js"></script>
+<script src="js/animal.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/input.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/game.js"></script>
+<script>if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) navigator.serviceWorker.register('sw.js').catch(function () {});</script>
+</body>
+</html>

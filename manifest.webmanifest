@@ -1,0 +1,10 @@
+{
+  "name": "Dusun Senja",
+  "short_name": "Dusun Senja",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111111",
+  "theme_color": "#5da64a",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
